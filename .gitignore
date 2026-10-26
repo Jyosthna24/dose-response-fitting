@@ -1,0 +1,13 @@
+# Never commit real experimental data or models
+*.xlsx
+*.xls
+*.tif
+*.tiff
+*.pth
+!data/synthetic_*.csv
+
+results/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
